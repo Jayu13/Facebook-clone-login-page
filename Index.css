@@ -2,4 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
+}
+
+.main {
+    background-color: #f0f2f5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    width: 50%;
+}
+.left img{
+    width: 45%;
+    margin-top: 10px;
+    margin-left: -18px;
+    display: flex;
+}
+
+.left h2{
+    color: #1c1e21;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/** right content **/
+
+.right-form{
+    width: 50%;
+}
+
+.content{
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #1c1e2147;
 }
